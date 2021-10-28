@@ -7,9 +7,9 @@ using namespace std;
 
 int wordChecker(string word)
 {
-    if (word == "agent")
+    if (word == "agent") //Check word
     {
-        return 10;
+        return 10; //Return value
     }
     else
     {
@@ -21,8 +21,8 @@ int main()
 {
     string enteredword;
 
-    cout << "Enter word:\n";
+    cout << "Enter word:\n"; //Get word
     getline(cin, enteredword);
 
-    cout << wordChecker(enteredword);
+    cout << wordChecker(enteredword); //Run function
 }
