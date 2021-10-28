@@ -9,11 +9,11 @@ int wordChecker(string word)
 {
     if (word == "agent")
     {
-        return 0;
+        return 10;
     }
     else
     {
-        return 10;
+        return 0;
     }
 }
 
@@ -24,5 +24,5 @@ int main()
     cout << "Enter word:\n";
     getline(cin, enteredword);
 
-    wordChecker(enteredword);
+    cout << wordChecker(enteredword);
 }
